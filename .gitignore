@@ -1,0 +1,32 @@
+# --- SEGURANÇA (Obrigatório) ---
+.env
+.env.local
+env/
+venv/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Logs e Relatórios ---
+*.log
+*.csv
+*.xlsx
+
+# Caso seu script gere PDFs ou XMLs temporários
+*.xml
+*.pdf
+
+# --- IDE e Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Arquivos específicos do projeto ---
+teste_discord_final.py
+
+debug_log.py
+
+logs/
